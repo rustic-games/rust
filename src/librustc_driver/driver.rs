@@ -953,7 +953,7 @@ where
         &resolver_arenas,
     );
     resolver.whitelisted_legacy_custom_derives = whitelisted_legacy_custom_derives;
-    syntax_ext::register_builtins(&mut resolver, syntax_exts, sess.features_untracked().quote);
+    syntax_ext::register_builtins(&mut resolver, syntax_exts);
 
     // Expand all macros
     sess.profiler(|p| p.start_activity(ProfileCategory::Expansion));

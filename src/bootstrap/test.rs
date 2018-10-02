@@ -829,12 +829,6 @@ host_test!(RunPassFullDeps {
     suite: "run-pass-fulldeps"
 });
 
-host_test!(RunFailFullDeps {
-    path: "src/test/run-fail-fulldeps",
-    mode: "run-fail",
-    suite: "run-fail-fulldeps"
-});
-
 host_test!(CompileFailFullDeps {
     path: "src/test/compile-fail-fulldeps",
     mode: "compile-fail",
@@ -885,13 +879,6 @@ test!(RunPassFullDepsPretty {
     path: "src/test/run-pass-fulldeps/pretty",
     mode: "pretty",
     suite: "run-pass-fulldeps",
-    default: false,
-    host: true
-});
-test!(RunFailFullDepsPretty {
-    path: "src/test/run-fail-fulldeps/pretty",
-    mode: "pretty",
-    suite: "run-fail-fulldeps",
     default: false,
     host: true
 });

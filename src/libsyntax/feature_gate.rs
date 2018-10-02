@@ -144,7 +144,6 @@ declare_features! (
 
     (active, link_llvm_intrinsics, "1.0.0", Some(29602), None),
     (active, linkage, "1.0.0", Some(29603), None),
-    (active, quote, "1.0.0", Some(29601), None),
 
     // rustc internal
     (active, rustc_diagnostic_macros, "1.0.0", None, None),
@@ -541,6 +540,7 @@ declare_features! (
      Some("merged into `#![feature(slice_patterns)]`")),
     (removed, macro_reexport, "1.0.0", Some(29638), None,
      Some("subsumed by `pub use`")),
+    (removed, quote, "1.0.0", Some(29601), None, None),
 );
 
 declare_features! (

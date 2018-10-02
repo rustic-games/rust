@@ -27,7 +27,6 @@
 #![feature(box_patterns)]
 #![feature(box_syntax)]
 #![feature(nll)]
-#![feature(quote)]
 #![feature(rustc_diagnostic_macros)]
 #![feature(macro_at_most_once_rep)]
 
