@@ -1,0 +1,12 @@
+error: missing documentation for a module
+   |
+note: lint level defined here
+  --> $DIR/auxiliary/issue-42008.rs:4:9
+   |
+LL | #![deny(missing_docs)]
+   |         ^^^^^^^^^^^^
+
+error: missing documentation for a function
+
+error: aborting due to 2 previous errors
+
